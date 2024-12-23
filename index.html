@@ -20,166 +20,103 @@
                 <li><a href="#">About</a></li>
                 <li><a href="#">Experience</a></li>
                 <li><a href="#">Projects</a></li>
+                <li><a href="#">Resume</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
         <div class="header-text">
-            <p>Electrical & Mechatronics Engineering Student</p>
-            <h1>Hi, I'm <span>Zaid</span></h1>
+            <h1>Hi, I'm <span>Zaid.</span></h1>
+            <p>Electrical & Mechatronics Engineering @ UCalgary</p>
         </div> 
     </div>
 </div>
 
 <!-- About -->
 <div id="about">
-    <div class="container">
-        <div class="row">
-            <div class="about-col-1">
-                <img src="images/zaid.jpg">
-            </div>
-            <div class="about-col-2">
-                <h1 class="sub-title">About Me</h1>
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                <div class="tab-titles">
-                    <p class="tab-links active-link" onclick="opentab(event, 'skills')">Skills</p>
-                    <p class="tab-links active-link" onclick="opentab(event, 'experience')">Experience</p>
-                    <p class="tab-links active-link" onclick="opentab(event, 'education')">Education</p>
-                </div>
-                <div class="tab-contents active-tab" id="skills">
-                    <ul>
-                        <li><span>a</span><br>b</li>
-                        <li><span>...</span><br>,,,</li>
-                        <li><span>...</span><br>,,,</li>
-                    </ul>
-                </div>
-                <div class="tab-contents" id="experience">
-                    <ul>
-                        <li><span>c</span><br>d</li>
-                        <li><span>...</span><br>,,,</li>
-                        <li><span>...</span><br>,,,</li>
-                    </ul>
-                </div>
-                <div class="tab-contents" id="education">
-                    <ul>
-                        <li><span>e</span><br>f</li>
-                        <li><span>...</span><br>,,,</li>
-                        <li><span>...</span><br>,,,</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
+  <div class="container">
+      <img src="images/zaid.jpg" alt="Zaid">
+      <h1 class="sub-title">About Me</h1>
+      <p>
+          My name is Zaid and I'm currently a third-year electrical engineering student at the Schulich
+          School of Engineering, at the University of Calgary. I am minoring in mechatronics and have a strong
+          background in software development. I have a wide variety of interests in the fields of science and
+          technology, such as space exploration, machine learning, robotics, and more.
+
+          <br><br>
+
+          Growing up, I displayed great interest in my math and science coursework at school. This continued
+          throughout high school when I further explored my calculus and physics classes, which inspired me 
+          to pursue engineering. I also loved programming, so my initial plan was actually to pick software
+          engineering as my major after my first year. My interest in electrical engineering ultimately 
+          emerged after realizing how much I enjoyed my physics and circuits courses in my first year, 
+          as well as seeing the applications of calculus and differential equations in electrical 
+          engineering.
+
+          <br><br>
+
+          I've been all over Canada, having lived in London, Halifax, Fort McMurray, and Calgary, in that exact
+          order. I've been living in Calgary since I was 8 (12 years now), so it's been home for a while. Before
+          my parents moved here, I was born in Hyderabad, India. In my free time, you can usually find me listening 
+          to music, lifting weights, playing video games or working on various personal projects here and there, 
+          such as this website. I also love to travel, so I'm always on the hunt for an international internship!
+      </p>
+  </div>
 </div>
 
-<!-- Experience -->
-<!--<div id="experience">
-  <div class="container">
-    <h1 class="sub-title">Experience</h1>
-    
-    <div class="experience-item">
-      <img src="images/calgarytospace.png" class="experience-image">
-      <div class="experience-details">
-        <h2>Electrical Subteam Member</h2>
-        <h3>CalgaryToSpace (January 2024 - present)</h3>
-        <ul>
-          <li>Gained experience in PCB design with Altium Designer and KiCad, contributing to the development of 
-            various circuit boards for the satellite. </li>
-          <li>Assembled and tested several boards. Implemented custom testing procedures 
-            to ensure device safety and function and troubleshooting methods to fix faulty boards.</li>
-          <li>Developed an Arduino program in C++ to interface a load tester for the solar panels used by the satellite.</li>
-          <li>Mentored and trained new team members in Arduino/C++ programming and circuit board
-            troubleshooting/testing, facilitating effective integration into the team and fostering skill development.</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="experience-item">
-      <img src="images/schulich.jpg" class="experience-image">
-      <div class="experience-details">
-        <h2>Robotics Research Intern</h2>
-        <h3>Schulich School of Engineering (May 2024 - August 2024)</h3>
-        <ul>
-          <li>Implemented 7 custom ROS 2 packages for real-time data processing using a Hokuyo UST-20XL laser scanner, 
-            allowing for mapping and navigation.</li>
-          <li>Engineered an IMU data publisher by writing Arduino C++ code to interface an MPU6050 gyroscope/accelerometer
-            with an Arduino ESP32 Wroom and developing a custom ROS 2 node for converting serial data into ROS 2 IMU messages.</li>
-          <li>Diagnosed and troubleshooted network issues concerning the laser scanner and its Ethernet interface.</li>
-          <li>Assembled several GY-521 modules for use as IMU sensors.</li>
-          <li>Administered version control and general organization by maintaining a GitHub repository for the project as well as 
-            technical documentation to ensure clarity and reproducibility for future users.</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="experience-item">
-      <img src="images/ignite.jpg" class="experience-image">
-      <div class="experience-details">
-        <h2>Programming Mentor</h2>
-        <h3>Schulich Ignite (October 2023 - April 2024)</h3>
-        <ul>
-          <li>Mentored students on programming with Python using the Processing library and Trinket code editor 
-            through weekly online and in person workshops.</li>
-          <li>Responsibilities included weekly lectures, assignment grading, and offering further programming help.</li>
-          <li>Yielded very positive feedback and noticeable improvements in students’ programming abilities.</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>-->
 
 <!-- Experience -->
 <div id="experience">
   <div class="container">
     <h1 class="sub-title">Experience</h1>
     
-    <!-- Experience Item 1 -->
     <div class="experience-item">
       <img src="images/calgarytospace.png" alt="CalgaryToSpace" class="experience-image">
       <div class="experience-details">
         <h2>Electrical Subteam Member</h2>
         <h3>CalgaryToSpace (January 2024 - present)</h3>
-        <ul>
-          <li>Gained experience in PCB design with Altium Designer and KiCad, contributing to the development of 
-            various circuit boards for the satellite.</li>
-          <li>Assembled and tested several boards. Implemented custom testing procedures to ensure device safety and function and troubleshooting methods to fix faulty boards.</li>
-          <li>Developed an Arduino program in C++ to interface a load tester for the solar panels used by the satellite.</li>
-          <li>Mentored and trained new team members in Arduino/C++ programming and circuit board troubleshooting/testing, facilitating effective integration into the team and fostering skill development.</li>
-        </ul>
+        <p>I have always had a deep-rooted passion for space exploration, being fascinated by NASA missions and the 
+          like since childhood. One of my most rewarding experiences in engineering has been joining 
+          CalgaryToSpace, a student team working on Calgary’s first student-developed satellite, 
+          aiming to encourage and promote the aerospace industry in the community. At CalgaryToSpace, I have had 
+          the opportunity to design circuit boards, develop firmware, and test and troubleshoot various satellite 
+          components. I have also taken up a leadership role, helping onboard and mentor new members. These 
+          experiences have enabled me to directly contribute to furthering an initiative that engages my community 
+          in a field that I am passionate about.</p>
       </div>
     </div>
 
-    <!-- Experience Item 2 -->
     <div class="experience-item">
       <img src="images/schulich.jpg" alt="Schulich School of Engineering" class="experience-image">
       <div class="experience-details">
         <h2>Robotics Research Intern</h2>
         <h3>Schulich School of Engineering (May 2024 - August 2024)</h3>
-        <ul>
-          <li>Implemented 7 custom ROS 2 packages for real-time data processing using a Hokuyo UST-20XL laser scanner, allowing for mapping and navigation.</li>
-          <li>Engineered an IMU data publisher by writing Arduino C++ code to interface an MPU6050 gyroscope/accelerometer with an Arduino ESP32 Wroom and developing a custom ROS 2 node for converting serial data into ROS 2 IMU messages.</li>
-          <li>Diagnosed and troubleshooted network issues concerning the laser scanner and its Ethernet interface.</li>
-          <li>Assembled several GY-521 modules for use as IMU sensors.</li>
-          <li>Administered version control and general organization by maintaining a GitHub repository for the project as well as technical documentation to ensure clarity and reproducibility for future users.</li>
-        </ul>
+        <p>This past summer, I had the opportunity to work as a research intern for Dr. Henry Leung at the Schulich 
+          School of Engineering, where I assisted with the development of an assistive robot for the City of 
+          Calgary that would greet and help citizens in City Hall. As a research intern, I used ROS 2 to interface
+          the robot's laser scanner to allow for autonomous navigation and mapping. I also worked with an ESP32
+          microcontroller and gyroscope sensors, writing custom Arduino/C++ code to publish inertial measurement 
+          unit (IMU) data, which contributed to the robot's navigation and localization system.. This served as a 
+          great learning opportunity and also fostered a certain level of independence due to the often individual 
+          nature of working in academia.</p>
       </div>
     </div>
 
-    <!-- Experience Item 3 -->
     <div class="experience-item">
       <img src="images/ignite.jpg" alt="Schulich Ignite" class="experience-image">
       <div class="experience-details">
         <h2>Programming Mentor</h2>
         <h3>Schulich Ignite (October 2023 - April 2024)</h3>
-        <ul>
-          <li>Mentored students on programming with Python using the Processing library and Trinket code editor through weekly online and in person workshops.</li>
-          <li>Responsibilities included weekly lectures, assignment grading, and offering further programming help.</li>
-          <li>Yielded very positive feedback and noticeable improvements in students’ programming abilities.</li>
-        </ul>
+        <p>Throughout high school, I found that it was very difficult to teach myself programming. The complexity 
+          of software development made it feel overwhelming to begin as a teenager. Thus, in my second year, I 
+          chose to join Schulich Ignite, an on-campus club that offers volunteering opportunities for undergraduate 
+          students to serve as mentors for high school students wishing to learn to code. Many students went on to 
+          showcase great interest and passion in programming and I am very grateful to have had the opportunity to 
+          help them pursue their goals and potentially further careers in software development.
+        </p>
       </div>
     </div>
   </div>
 </div>
-
 
 <!-- Projects -->
 <div id="experience">

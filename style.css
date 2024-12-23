@@ -57,7 +57,8 @@ nav{
 }
 
 .logo{
-    width: 140px;
+    width: 200px;
+    margin-top: 20px;
 }
 
 nav ul li{
@@ -117,28 +118,19 @@ nav ul li a:hover::after{
     color: #ffffff;
 }
 
-#about .row{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-#about .about-col-1{
-    flex-basis: 35%
-}
-
-#about .about-col-1 img{
-    width: 100%;
+#about img{
+    width: 35%;
     border-radius: 15px;
-}
-
-#about .about-col-2{
-    flex-basis: 60%;
+    height: auto;
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 20px;
 }
 
 #about .sub-title{
     font-size: 60px;
     font-weight: 600;
+    margin-bottom: 5px;
 }
 
 #about .tab-titles{
@@ -188,52 +180,6 @@ nav ul li a:hover::after{
 }
 
 /* Experience */
-/*
-#experience .container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-#experience .sub-title {
-  font-size: 60px;
-  text-align: center;
-  font-weight: 600;
-  margin-bottom: 2rem;
-}
-
-#experience .experience-item {
-  display: flex;
-  align-items: flex-start;
-  margin-bottom: 3rem;
-  gap: 1.5rem;
-}
-
-#experience .experience-image {
-  width: 100px;
-  height: 100px;
-  border-radius: 8px;
-  object-fit: cover;
-}
-
-#experience .experience-details h2 {
-  font-size: 30px;
-  margin-bottom: 10px;
-}
-
-#experience .experience-details h3 {
-    font-size: 20px;
-    margin-bottom: 1rem;
-  }
-
-#experience .experience-details ul {
-  list-style: disc inside;
-  font-size: 0.9rem;
-  color: #cccccc;
-}
-
-#experience .experience-details ul li {
-  margin-bottom: 0.5rem;
-}*/
 
 #experience {
   background-color: #121212;
@@ -249,6 +195,12 @@ nav ul li a:hover::after{
   gap: 2rem;
 }
 
+#experience .sub-title{
+  font-size: 60px;
+  font-weight: 600;
+  text-align: center;
+}
+
 .experience-item {
   display: flex;
   align-items: flex-start;
@@ -256,40 +208,25 @@ nav ul li a:hover::after{
 }
 
 .experience-item img {
-  width: 150px; /* Adjust image size as needed */
-  height: 150px;
+  width: 200px;
+  height: 200px;
   border-radius: 8px;
   object-fit: cover;
 }
 
 .experience-details {
-  flex: 1; /* Ensures the text takes the remaining space */
+  flex: 1; 
 }
 
 .experience-details h2 {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
+  font-size: 30px;
+  margin-bottom: 10px;
 }
 
-.experience-details p {
-  font-size: 1rem;
-  color: #cccccc;
-  margin-bottom: 1rem;
+.experience-details h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
 }
-
-.experience-details ul {
-  list-style: disc inside;
-  font-size: 0.9rem;
-  color: #cccccc;
-}
-
-.experience-details ul li {
-  margin-bottom: 0.5rem;
-}
-
-
-
-
 
 
 /* Contact */
