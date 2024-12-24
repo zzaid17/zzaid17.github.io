@@ -337,3 +337,46 @@ body{
 }
 
 /* Contact */
+
+#contact .btn.btn2{
+  display: inline-block;
+  background: #6fa8dc;
+  color: #ffffff;
+  border: #000000;
+  margin-top: 30px;
+}
+
+#contact .contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+#contact form input, form textarea {
+  width: 35%;
+  border: 0;
+  outline: none;
+  background: #363636;
+  padding: 15px;
+  margin: 15px 0;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+#contact .sub-title{
+  font-size: 60px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 50px
+}
+
+#contact form .btn2{
+  padding: 14px 60px;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 6px;
+}
