@@ -3,8 +3,16 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/11.1.0/firebas
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-analytics.js";
 import { getDatabase, ref, push, set } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-database.js";
 
-// Import Firebase config
-import firebaseConfig from "./firebaseConfig.js";
+// Firebase config
+const firebaseConfig = {
+  apiKey: "AIzaSyCVkvh3vY8VZnWo7YrHe7F9WPWTuQCr8kE",
+  authDomain: "portfolio-contact-form-1271a.firebaseapp.com",
+  databaseURL: "https://portfolio-contact-form-1271a-default-rtdb.firebaseio.com",
+  projectId: "portfolio-contact-form-1271a",
+  storageBucket: "portfolio-contact-form-1271a.firebasestorage.app",
+  messagingSenderId: "538237580740",
+  appId: "1:538237580740:web:36d3a39415140756106091"
+};
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
