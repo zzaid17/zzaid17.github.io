@@ -1,9 +1,10 @@
-
 // Import Firebase functions
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-analytics.js";
 import { getDatabase, ref, push, set } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-database.js";
-import firebaseConfig from './firebaseConfig.js';
+
+// Import Firebase config
+import firebaseConfig from "./firebaseConfig.js";
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);

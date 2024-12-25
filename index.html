@@ -176,16 +176,22 @@
 <!-- Contact -->
 <div id="contact">
     <h1 class ="sub-title">Contact Me</h1>
+
+    <!-- Success and Error Message -->
+    <div id="success-message" class="hidden">Form submitted successfully!</div>
+    <div id="error-message" class="hidden">Error submitting form. Please try again later.</div>
+
     <div class="contact">
-      <form>
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+      <form action="" id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" rows="6" placeholder="Your Message"></textarea>
         <button type="submit" class="btn btn2">Submit</button>
       </form>
   </div>
 </div>
 
-    
+<script type="module" src="script.js"></script>
+
 </body>
 </html>
