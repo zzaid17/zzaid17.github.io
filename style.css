@@ -253,7 +253,7 @@ body {
 .experience-item {
   display: flex;
   align-items: flex-start;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 .experience-item img {
@@ -261,6 +261,12 @@ body {
   height: 200px;
   border-radius: 8px;
   object-fit: cover;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.experience-item img:hover {
+  transform: scale(1.1);
 }
 
 .experience-details {
@@ -294,23 +300,16 @@ body {
   font-size: 60px;
   font-weight: 600;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
-.project-row1 {
-  margin-top: 50px;
+.project-row {
   display: flex;
-  justify-content: space-between; /* Space between columns */
-  gap: 100px; /* Adjust spacing between items */
-  flex-wrap: wrap; /* Ensure responsiveness */
-}
-
-.project-row2 {
-  margin-top: 50px;
-  display: flex;
-  justify-content: space-between; /* Space between columns */
-  gap: 100px; /* Adjust spacing between items */
-  flex-wrap: wrap; /* Ensure responsiveness */
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  flex-wrap: nowrap;
+  margin-bottom: 1rem;
 }
 
 .project-item {
@@ -320,13 +319,12 @@ body {
 }
 
 .project-item img {
-  width: 100%;
-  height: auto;
+  width: 250px;
+  height: 175px;
   border-radius: 8px;
   margin-bottom: 1rem;
-  
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .project-item img:hover {
@@ -334,8 +332,12 @@ body {
 }
 
 .project-item h2 {
-  font-size: 1.5rem;
-  margin-top: 0.5rem;
+  text-align: center;
+  margin-top: 1rem;
+  height: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .project-item p {
@@ -358,7 +360,7 @@ body {
 }
 
 .modal-content {
-  background-color: #6fa8dc;
+  background-color: #121212;
   padding: 20px;
   border-radius: 10px;
   text-align: center;
@@ -374,6 +376,7 @@ body {
 
 .modal-content p {
   font-size: 18px;
+  margin-top: 2rem;
 }
 
 .modal-content .close {
