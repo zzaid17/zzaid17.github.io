@@ -132,44 +132,82 @@
 
     <div class="project-row1">
       <div class="project-item">
-        <img src="files/basys3.jpg" class="project-image">
+        <img src="files/basys3.jpg" class="project-image" data-modal="modal1">
         <h2>Basys3 Digital Signal Processing Module</h2>
-        <p>Incoming...</p>
       </div>
 
       <div class="project-item">
-        <img src="files/laptop.jpg" class="project-image">
+        <img src="files/laptop.jpg" class="project-image" data-modal="modal2">
         <h2>Personal Portfolio Website</h2>
-        <p>Incoming...</p>
       </div>
 
       <div class="project-item">
-        <img src="" class="project-image">
-        <h2>Machine Learning Model</h2>
-        <p>Incoming...</p>
+        <img src="files/planet.jpeg" class="project-image" data-modal="modal3">
+        <h2>Exoplanet Detection</h2>
       </div>
     </div>
 
-    <div class="project-row2">
       <div class="project-item">
-        <img src="files/console.jpg" class="project-image">
+        <img src="files/console.jpg" class="project-image" data-modal="modal4">
         <h2>Retro Video Game Console</h2>
-        <p>Incoming...</p>
       </div>
 
       <div class="project-item">
-        <img src="" class="project-image">
+        <img src="" class="project-image" data-modal="modal5">
         <h2>Automated Indoor Garden</h2>
-        <p>Incoming...</p>
       </div>
 
-      <div class="project-item">
-        <img src="" class="project-image">
-        <h2>Incoming...</h2>
-        <p>Incoming...</p>
-      </div>
-    </div>
+    
 
+  </div>
+</div>
+
+<!-- Modals -->
+<div id="modal1" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Basys3 Digital Signal Processing Module</h2>
+    <p>Details about this project...</p>
+  </div>
+</div>
+
+<div id="modal2" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Personal Portfolio Website</h2>
+    <p>This personal portfolio website showcases my skills, projects, and experience. It was created using HTML, CSS, and JavaScript for a 
+      responsive and interactive design on the front end, and integrates Firebase on the back end to handle incoming data from the contact 
+      form. I maintained a GitHub repository for version control and deployed the project on GitHub pages, connecting the site to a Cloudflare 
+      domain.</p>
+  </div>
+</div>
+
+<div id="modal3" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Exoplanet Detection</h2>
+    <p>Details about this project...</p>
+  </div>
+</div>
+
+<div id="modal4" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Retro Video Game Console</h2>
+    <p>For my final project for ENGG 200, an introductory engineering design and entrepreneurship course, I collaborated with a team of four to 
+      design and build a retro video game console with a built-in reaction time game and F1-themed wheel. The game prompts the player to turn the 
+      console up, down, left, or right within the given time limit. If this is done enough times, the player advances to the next level. Each
+      level requires faster reaction times for the player to avoid getting eliminated. The console uses an MPU6050 gyroscope, for which I 
+      developed custom Arduino code in C++ and also helped set up the required circuits. Our group pitched the design to students and TAs, and I 
+      authored a comprehensive technical report on the project, for which we received a grade of 100%.</p>
+  </div>
+</div>
+
+<div id="modal5" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Automated Indoor Garden</h2>
+    <p>Details about this project...</p>
   </div>
 </div>
 
@@ -191,7 +229,8 @@
   </div>
 </div>
 
-<script type="module" src="script.js"></script>
+<script type="module" src="contactForm.js"></script>
+<script type="module" src="popup.js"></script>
 
 </body>
 </html>
