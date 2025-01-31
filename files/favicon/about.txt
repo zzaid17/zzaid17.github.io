@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Syne Mono
+- Font Author: undefined
+- Font Source: https://fonts.gstatic.com/s/synemono/v15/K2FzfZNHj_FHBmRbFvHzIqCkDyvqZA.ttf
+- Font License: undefined)
