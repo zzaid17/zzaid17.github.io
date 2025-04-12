@@ -55,21 +55,14 @@ body {
 #header nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     flex-wrap: wrap;
-     
-}
-
-#header .logo {
-    width: 200px;
-    margin-top: 20px;
 }
 
 #header nav ul li {
     display: inline-block;
     list-style: none;
     margin: 10px 20px;
-
 }
 
 #header nav ul li a {
@@ -503,4 +496,108 @@ body {
   margin-left: auto;
   margin-right: auto;
   font-weight: 500;
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+  .container {
+    padding: 10px 5%;
+  }
+
+  #header .header-text {
+    font-size: 22px;
+    margin-top: 40%;
+    text-align: center;
+  }
+
+  #header .header-text h1 {
+    font-size: 36px;
+  }
+
+  #header nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  #about .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+  }
+
+  #about img {
+    max-width: 60%;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #about .sub-title,
+  #experience .sub-title,
+  #projects .sub-title,
+  #contact .sub-title {
+    font-size: 38px;
+    text-align: center;
+  }
+
+  .experience-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+  }
+
+  .experience-item img {
+    max-width: 100%;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .experience-details {
+    width: 100%;
+  }
+
+  .project-row {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .project-item {
+    max-width: 100%;
+  }
+
+  .project-item img {
+    max-width: 100%;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: -20px;
+  }
+
+  .modal-content {
+    width: 95vw;
+    height: auto;
+    max-height: none;
+    padding: 15px;
+  }
+
+  .modal-content p {
+    font-size: 16px;
+  }
+
+  #contact form input,
+  #contact form textarea {
+    width: 90%;
+  }
+
+  #success-message.visible,
+  #error-message.visible {
+    width: 90%;
+  }
 }
