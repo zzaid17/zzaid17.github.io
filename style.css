@@ -290,7 +290,7 @@ body {
 }
 
 #projects .container {
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 0 auto;
 }
 
@@ -364,6 +364,10 @@ body {
   width: 100%;
   max-height: 720px;
   height: 100%;
+}
+
+#modal4 .modal-content { /* Custom modal size for modal 4 since no picture */
+  max-height: 400px;
 }
 
 .modal-content h2 {
